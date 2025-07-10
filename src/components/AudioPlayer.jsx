@@ -42,9 +42,17 @@ class AudioPlayer extends React.Component {
 
   render() {
     const { playing, currentTime, duration } = this.state;
+    const backgroundImage = this.props.backgroundImage || "/assets/ab1.jpg";
 
     return (
-      <div className='player'>
+      <div
+        className='player'
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
         <audio
           ref={this.audioRef}
           src={"/assets/99_Names_of_Allah_Best_Recitation(128k).mp3"} 

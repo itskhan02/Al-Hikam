@@ -481,7 +481,7 @@ td.n-meaning p {
   align-content: center;
   width: 35%;
   min-width: 220px;
-  background-image: url(ab1.jpg);
+  background-image: url(/public/assets/ab1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1181,7 +1181,7 @@ div#rc-tabs-0-tab-2 {
   align-content: center;
   width: 35%;
   min-width: 220px;
-  background-image: url(ab1.jpg);
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1201,7 +1201,7 @@ div#rc-tabs-0-tab-2 {
 }
 @media (max-width: 576px) {
   .player {
-    width: 100%;
+    width: 80%;
     min-width: 120px;
     padding: 0.7rem;
   }
