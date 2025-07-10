@@ -11,7 +11,7 @@ import Main from './Main';
 import { useNavigate } from 'react-router-dom';
 import { FaBookReader } from 'react-icons/fa';
 import { PiBooksBold } from 'react-icons/pi';
-import duaIcon from './images/dua.png';
+import duaIcon from '/dua.png';
 
 const { Header, Sider, Content } = Layout;
 
