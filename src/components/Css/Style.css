@@ -481,7 +481,7 @@ td.n-meaning p {
   align-content: center;
   width: 35%;
   min-width: 220px;
-  background-image: url("/ab1.jpg");
+  background-image: url(/ab1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
