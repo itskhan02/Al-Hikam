@@ -35,7 +35,7 @@ const NamesofAllah = () => {
           loop
           muted
           playsInline
-          src="src\assets\99-names-of-Allah - Made with Clipchamp.mp4"
+          src="/assets/99-names-of-Allah - Made with Clipchamp.mp4"
         >
           Your browser does not support HTML5 video
         </video>
@@ -83,7 +83,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[0] = el)}
-                    src="src\assets\1. ar-rahman.mp3"
+                    src={"/assets/1. ar-rahman.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ar-Rahman</td>
@@ -112,7 +112,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[1] = el)}
-                    src="src\assets\2. ar-raheem.mp3"
+                    src={"/assets/2. ar-raheem.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ar-Raheem</td>
@@ -141,7 +141,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[2] = el)}
-                    src="src\assets\3. al-malik.mp3"
+                    src={"/assets/3. al-malik.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ar-Malik</td>
@@ -173,7 +173,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[3] = el)}
-                    src="src\assets\4. al-qaddus.mp3"
+                    src={"/assets/4. al-qaddus.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Qaddus</td>
@@ -205,7 +205,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[4] = el)}
-                    src="src\assets\5. as-salam.mp3"
+                    src={"/assets/5. as-salam.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">As-Salam</td>
@@ -234,7 +234,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[5] = el)}
-                    src="src\assets\6. al-mumin.mp3"
+                    src={"/assets/6. al-mumin.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Mumin</td>
@@ -266,7 +266,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[6] = el)}
-                    src="src\assets\7. al-muhaymin.mp3"
+                    src={"/assets/7. al-muhaymin.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muhaymin</td>
@@ -297,7 +297,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[7] = el)}
-                    src="src\assets\8. al-aziz.mp3"
+                    src={"/assets/8. al-aziz.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Aziz</td>
@@ -329,7 +329,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[8] = el)}
-                    src="src\assets\9. al-jabbar.mp3"
+                    src={"/assets/9. al-jabbar.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Jabbar</td>
@@ -361,7 +361,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[9] = el)}
-                    src="src\assets\10. al-mutakabbir.mp3"
+                    src={"/assets/10. al-mutakabbir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Mutakabbir</td>
@@ -393,7 +393,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[10] = el)}
-                    src="src\assets\11. al-khaliq.mp3"
+                    src={"/assets/11. al-khaliq.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">AL-Khaliq</td>
@@ -422,7 +422,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[11] = el)}
-                    src="src\assets\12. al-bari.mp3"
+                    src={"/assets/12. al-bari.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Bari</td>
@@ -453,7 +453,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[12] = el)}
-                    src="src\assets\13. al-musawwir.mp3"
+                    src={"/assets/13. al-musawwir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Musawwir</td>
@@ -482,7 +482,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[13] = el)}
-                    src="src\assets\14. al-ghaffar.mp3"
+                    src={"/assets/14. al-ghaffar.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Ghaffar</td>
@@ -511,7 +511,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[14] = el)}
-                    src="src\assets\15. al-qahhar.mp3"
+                    src={"/assets/15. al-qahhar.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Qahhar</td>
@@ -542,7 +542,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[15] = el)}
-                    src="src\assets\16. al-wahhab.mp3"
+                    src={"/assets/16. al-wahhab.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Wahhab</td>
@@ -574,7 +574,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[16] = el)}
-                    src="src\assets\17. ar-razzaq.mp3"
+                    src={"/assets/17. ar-razzaq.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ar-Razzaq</td>
@@ -603,7 +603,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[17] = el)}
-                    src="src\assets\18. al-fattah.mp3"
+                    src={"/assets/18. al-fattah.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Fattah</td>
@@ -635,7 +635,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[18] = el)}
-                    src="src\assets\19. al-alim.mp3"
+                    src={"/assets/19. al-alim.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Alim</td>
@@ -667,7 +667,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[19] = el)}
-                    src="src\assets\20. al-qabid.mp3"
+                    src={"/assets/20. al-qabid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Qabid</td>
@@ -700,7 +700,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[20] = el)}
-                    src="src\assets\21. al-basit.mp3"
+                    src={"/assets/21. al-basit.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Basit</td>
@@ -733,7 +733,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[21] = el)}
-                    src="src\assets\22. al-khafid.mp3"
+                    src={"/assets/22. al-khafid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Khafid</td>
@@ -765,7 +765,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[22] = el)}
-                    src="src\assets\23. ar-rafi.mp3"
+                    src={"/assets/23. ar-rafi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ar-Rafi</td>
@@ -798,7 +798,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[23] = el)}
-                    src="src\assets\24. al-muizz.mp3"
+                    src={"/assets/24. al-muizz.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Mu'izz</td>
@@ -831,7 +831,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[24] = el)}
-                    src="src\assets\25. al-mudhill.mp3"
+                    src={"/assets/25. al-mudhill.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muzil</td>
@@ -865,7 +865,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[25] = el)}
-                    src="src\assets\26. as-sami.mp3"
+                    src={"/assets/26. as-sami.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">As-Sami</td>
@@ -897,7 +897,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[26] = el)}
-                    src="src\assets\27. al-basir.mp3"
+                    src={"/assets/27. al-basir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Baseer</td>
@@ -930,7 +930,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[27] = el)}
-                    src="src\assets\28. al-hakam.mp3"
+                    src={"/assets/28. al-hakam.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Hakam</td>
@@ -962,7 +962,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[28] = el)}
-                    src="src\assets\29. al-adl.mp3"
+                    src={"/assets/29. al-adl.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Adl</td>
@@ -991,7 +991,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[29] = el)}
-                    src="src\assets\30. al-latif.mp3"
+                    src={"/assets/30. al-latif.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Lateef</td>
@@ -1023,7 +1023,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[30] = el)}
-                    src="src\assets\31. al-khabir.mp3"
+                    src={"/assets/31. al-khabir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Khabir</td>
@@ -1052,7 +1052,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[31] = el)}
-                    src="src\assets\32. al-halim.mp3"
+                    src={"/assets/32. al-halim.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Haleem</td>
@@ -1084,7 +1084,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[32] = el)}
-                    src="src\assets\33. al-azeem.mp3"
+                    src={"/assets/33. al-azeem.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Azeem</td>
@@ -1117,7 +1117,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[33] = el)}
-                    src="src\assets\34. al-ghafur.mp3"
+                    src={"/assets/34. al-ghafur.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Ghafoor</td>
@@ -1149,7 +1149,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[34] = el)}
-                    src="src\assets\35. ash-shakur.mp3"
+                    src={"/assets/35. ash-shakur.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ash-Shakur</td>
@@ -1181,7 +1181,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[35] = el)}
-                    src="src\assets\36. al-ali.mp3"
+                    src={"/assets/36. al-ali.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Aliyy</td>
@@ -1213,7 +1213,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[36] = el)}
-                    src="src\assets\37. al-kabir.mp3"
+                    src={"/assets/37. al-kabir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Kabeer</td>
@@ -1245,7 +1245,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[37] = el)}
-                    src="src\assets\38. al-hafiz.mp3"
+                    src={"/assets/38. al-hafiz.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Hafiz</td>
@@ -1277,7 +1277,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[38] = el)}
-                    src="src\assets\39. al-muqit.mp3"
+                    src={"/assets/39. al-muqit.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muqeet</td>
@@ -1309,7 +1309,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[39] = el)}
-                    src="src\assets\40. al-hasib.mp3"
+                    src={"/assets/40. al-hasib.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Haseeb</td>
@@ -1338,7 +1338,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[40] = el)}
-                    src="src\assets\41. al-jalil.mp3"
+                    src={"/assets/41. al-jalil.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Jaleel</td>
@@ -1370,7 +1370,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[41] = el)}
-                    src="src\assets\42. al-karim.mp3"
+                    src={"/assets/42. al-karim.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Karim</td>
@@ -1402,7 +1402,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[42] = el)}
-                    src="src\assets\43. ar-raqib.mp3"
+                    src={"/assets/43. ar-raqib.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ar-Raqib</td>
@@ -1434,7 +1434,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[43] = el)}
-                    src="src\assets\44. al-mujib.mp3"
+                    src={"/assets/44. al-mujib.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Mujeeb</td>
@@ -1467,7 +1467,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[44] = el)}
-                    src="src\assets\45. al-wasi.mp3"
+                    src={"/assets/45. al-wasi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Wasi</td>
@@ -1496,7 +1496,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[45] = el)}
-                    src="src\assets\46. al-hakim.mp3"
+                    src={"/assets/46. al-hakim.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Hakeem</td>
@@ -1528,7 +1528,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[46] = el)}
-                    src="src\assets\47. al-wadud.mp3"
+                    src={"/assets/47. al-wadud.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Wadood</td>
@@ -1557,7 +1557,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[47] = el)}
-                    src="src\assets\48. al-majid.mp3"
+                    src={"/assets/48. al-majid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Majeed</td>
@@ -1589,7 +1589,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[48] = el)}
-                    src="src\assets\49. al-baith.mp3"
+                    src={"/assets/49. al-baith.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Ba'ith</td>
@@ -1618,7 +1618,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[49] = el)}
-                    src="src\assets\50. ash-shahid.mp3"
+                    src={"/assets/50. ash-shahid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ash-Shaheed</td>
@@ -1647,7 +1647,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[50] = el)}
-                    src="src\assets\51. al-haqq.mp3"
+                    src={"/assets/51. al-haqq.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Haqq</td>
@@ -1676,7 +1676,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[51] = el)}
-                    src="src\assets\52. al-wakeel.mp3"
+                    src={"/assets/52. al-wakeel.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Wakeel</td>
@@ -1708,7 +1708,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[52] = el)}
-                    src="src\assets\53. al-qawi.mp3"
+                    src={"/assets/53. al-qawi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Qawiyy</td>
@@ -1740,7 +1740,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[53] = el)}
-                    src="src\assets\54. al-matin.mp3"
+                    src={"/assets/54. al-matin.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Matin</td>
@@ -1772,7 +1772,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[54] = el)}
-                    src="src\assets\55. al-waliyy.mp3"
+                    src={"/assets/55. al-waliyy.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Waliy</td>
@@ -1801,7 +1801,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[55] = el)}
-                    src="src\assets\56. al-hamid.mp3"
+                    src={"/assets/56. al-hamid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Hameed</td>
@@ -1832,7 +1832,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[56] = el)}
-                    src="src\assets\57. al-muhsi.mp3"
+                    src={"/assets/57. al-muhsi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muhsi</td>
@@ -1864,7 +1864,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[57] = el)}
-                    src="src\assets\58. al-mubdi.mp3"
+                    src={"/assets/58. al-mubdi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Mubdi</td>
@@ -1896,7 +1896,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[58] = el)}
-                    src="src\assets\59. al-muid.mp3"
+                    src={"/assets/59. al-muid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muid</td>
@@ -1928,7 +1928,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[59] = el)}
-                    src="src\assets\60. al-muhyi.mp3"
+                    src={"/assets/60. al-muhyi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muhyi</td>
@@ -1957,7 +1957,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[60] = el)}
-                    src="src\assets\61. al-mumit.mp3"
+                    src={"/assets/61. al-mumit.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Mumeet</td>
@@ -1989,7 +1989,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[61] = el)}
-                    src="src\assets\62. al-hayy.mp3"
+                    src={"/assets/62. al-hayy.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Hayy</td>
@@ -2022,7 +2022,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[62] = el)}
-                    src="src\assets\63. al-qayyum.mp3"
+                    src={"/assets/63. al-qayyum.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration"> Al-Qayyum</td>
@@ -2054,7 +2054,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[63] = el)}
-                    src="src\assets\64. al-wajid.mp3"
+                    src={"/assets/64. al-wajid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration"> Al-Wajid</td>
@@ -2086,7 +2086,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[64] = el)}
-                    src="src\assets\65. al-majid.mp3"
+                    src={"/assets/65. al-majid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Maajid</td>
@@ -2115,7 +2115,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[65] = el)}
-                    src="src\assets\66. al-wahid.mp3"
+                    src={"/assets/66. al-wahid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Wahid</td>
@@ -2144,7 +2144,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[66] = el)}
-                    src="src\assets\67. al-ahad.mp3"
+                    src={"/assets/67. al-ahad.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Ahad</td>
@@ -2173,7 +2173,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[67] = el)}
-                    src="src\assets\68. as-samad.mp3"
+                    src={"/assets/68. as-samad.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">As-Samad</td>
@@ -2206,7 +2206,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[68] = el)}
-                    src="src\assets\69. al-qadir.mp3"
+                    src={"/assets/69. al-qadir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Qadir</td>
@@ -2235,12 +2235,12 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[69] = el)}
-                    src="src\assets\70. al-muqtadir.mp3"
+                    src={"/assets/70. al-muqtadir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muqtadir</td>
                 <td className="n-meaning">
-                  (The All Authoritative One)t
+                                   (The All Authoritative One)t
                   <p>
                     The Powerful, The Dominant, The One with the perfect Power
                     that nothing is withheld from Him.
@@ -2267,7 +2267,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[70] = el)}
-                    src="src\assets\71. al-muqaddim.mp3"
+                    src={"/assets/71. al-muqaddim.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muqaddim</td>
@@ -2299,7 +2299,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[71] = el)}
-                    src="src\assets\72. al-muakhkhir.mp3"
+                    src={"/assets/72. al-muakhkhir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration"> Al-Muakhkhir</td>
@@ -2331,7 +2331,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[72] = el)}
-                    src="src\assets\73. al-awwal.mp3"
+                    src={"/assets/73. al-awwal.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Awwal</td>
@@ -2362,7 +2362,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[73] = el)}
-                    src="src\assets\74. al-akhir.mp3"
+                    src={"/assets/74. al-akhir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Akhir</td>
@@ -2391,7 +2391,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[74] = el)}
-                    src="src\assets\75. az-zahir.mp3"
+                    src={"/assets/75. az-zahir.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Az-Zaahir</td>
@@ -2420,7 +2420,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[75] = el)}
-                    src="src\assets\76. al-batin.mp3"
+                    src={"/assets/76. al-batin.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Baatin</td>
@@ -2452,7 +2452,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[76] = el)}
-                    src="src\assets\77. al-wali.mp3"
+                    src={"/assets/77. al-wali.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Wali</td>
@@ -2481,7 +2481,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[77] = el)}
-                    src="src\assets\78. al-muta-ali.mp3"
+                    src={"/assets/78. al-muta-ali.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Mutaali</td>
@@ -2513,7 +2513,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[78] = el)}
-                    src="src\assets\79. al-barr.mp3"
+                    src={"/assets/79. al-barr.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Barr</td>
@@ -2545,7 +2545,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[79] = el)}
-                    src="src\assets\80. at-tawwab.mp3"
+                    src={"/assets/80. at-tawwab.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">At-Tawwab</td>
@@ -2577,7 +2577,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[80] = el)}
-                    src="src\assets\81. al-muntaqim.mp3"
+                    src={"/assets/81. al-muntaqim.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muntaqim</td>
@@ -2608,7 +2608,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[81] = el)}
-                    src="src\assets\82. al-afuw.mp3"
+                    src={"/assets/82. al-afuw.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Afuw</td>
@@ -2637,7 +2637,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[82] = el)}
-                    src="src\assets\83. ar-rauf.mp3"
+                    src={"/assets/83. ar-rauf.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ar-Rauf</td>
@@ -2669,7 +2669,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[83] = el)}
-                    src="src\assets\84. malikul mulk.mp3"
+                    src={"/assets/84. malikul mulk.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Malikul-Mulk</td>
@@ -2701,7 +2701,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[84] = el)}
-                    src="src\assets\85. dhul-jalali-wal-ikram.mp3"
+                    src={"/assets/85. dhul-jalali-wal-ikram.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Dhul-Jalaali-Wal-Ikram</td>
@@ -2730,7 +2730,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[85] = el)}
-                    src="src\assets\86. al-muqsit.mp3"
+                    src={"/assets/86. al-muqsit.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Muqsit</td>
@@ -2759,7 +2759,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[86] = el)}
-                    src="src\assets\87. al-jami.mp3"
+                    src={"/assets/87. al-jami.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Jami</td>
@@ -2791,7 +2791,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[87] = el)}
-                    src="src\assets\88. al-ghaniyy.mp3"
+                    src={"/assets/88. al-ghaniyy.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Ghaniy</td>
@@ -2820,7 +2820,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[88] = el)}
-                    src="src\assets\89. al-mughni.mp3"
+                    src={"/assets/89. al-mughni.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Mughni</td>
@@ -2852,7 +2852,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[89] = el)}
-                    src="src\assets\90. al-mani.mp3"
+                    src={"/assets/90. al-mani.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Mani</td>
@@ -2881,7 +2881,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[90] = el)}
-                    src="src\assets\91. ad-darr.mp3"
+                    src={"/assets/91. ad-darr.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ad-Darr</td>
@@ -2913,7 +2913,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[91] = el)}
-                    src="src\assets\92. an-nafi.mp3"
+                    src={"/assets/92. an-nafi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">An-Naafi</td>
@@ -2945,7 +2945,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[92] = el)}
-                    src="src\assets\93. an-nur.mp3"
+                    src={"/assets/93. an-nur.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">An-Noor</td>
@@ -2974,7 +2974,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[93] = el)}
-                    src="src\assets\94. al-hadi.mp3"
+                    src={"/assets/94. al-hadi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Hadi</td>
@@ -3003,7 +3003,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[94] = el)}
-                    src="src\assets\95. al-badi.mp3"
+                    src={"/assets/95. al-badi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Badi</td>
@@ -3035,7 +3035,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[95] = el)}
-                    src="src\assets\96. al-baqi.mp3"
+                    src={"/assets/96. al-baqi.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Baaqi</td>
@@ -3064,7 +3064,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[96] = el)}
-                    src="src\assets\97.al-warith.mp3"
+                    src={"/assets/97.al-warith.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Al-Warith</td>
@@ -3093,7 +3093,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[97] = el)}
-                    src="src\assets\98. ar-rashid.mp3"
+                    src={"/assets/98. ar-rashid.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">Ar-Rasheed</td>
@@ -3122,7 +3122,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[98] = el)}
-                    src="src\assets\99. as-sabur.mp3"
+                    src={"/assets/99. as-sabur.mp3"}
                   ></audio>
                 </td>
                 <td className="transliteration">As-Sabur</td>

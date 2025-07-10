@@ -280,8 +280,8 @@ const Prayertime = () => {
   }
 
   const backgroundImage = isDayTime
-    ? 'url("src/components/images/nbg1.jpg")'
-    : 'url("src/components/images/nbg.jpg")';
+    ? 'url("/nbg1.jpg")'
+    : 'url("/nbg.jpg")';
 
   // current prayer time
   const getCurrentPrayer = () => {

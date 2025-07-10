@@ -47,7 +47,7 @@ class AudioPlayer extends React.Component {
       <div className='player'>
         <audio
           ref={this.audioRef}
-          src="src\assets\99_Names_of_Allah_Best_Recitation(128k).mp3" 
+          src={"/assets/99_Names_of_Allah_Best_Recitation(128k).mp3"} 
           onTimeUpdate={this.handleTimeUpdate}
         />
         <button onClick={playing ? this.handlePause : this.handlePlay}
