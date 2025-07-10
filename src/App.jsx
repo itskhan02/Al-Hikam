@@ -33,7 +33,7 @@ const App = () => {
   };
 
   return (
-    <BrowserRouter>
+    <Router>
       <div className={`app-container ${darkMode ? 'dark-mode' : 'light-mode'}`} style={{ backgroundColor:'#F8F8FF' }}>
         <Routes>
           <Route path="/" element={<Home darkMode={darkMode} toggleDarkMode={toggleDarkMode} />} />
@@ -51,7 +51,7 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 };
 
