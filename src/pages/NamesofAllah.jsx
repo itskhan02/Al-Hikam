@@ -66,7 +66,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">1</td>
                 <td className="arabic-name">
-                  <img src={"/1.webp"}></img>
+                  <img src={"/assets/name/1.webp"} alt="Ar-Rahman" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -95,7 +95,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">2</td>
                 <td className="arabic-name">
-                  <img src={"/2.webp"}></img>
+                  <img src={"/assets/name/2.webp"} alt="Ar-Raheem" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -124,7 +124,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">3</td>
                 <td className="arabic-name">
-                  <img src={"/3.webp"}></img>
+                  <img src={"/assets/name/3.webp"} alt="Ar-Malik" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -156,7 +156,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">4</td>
                 <td className="arabic-name">
-                  <img src={"/4.webp"}></img>
+                  <img src={"/assets/name/4.webp"} alt="Al-Qaddus" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -188,7 +188,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">5</td>
                 <td className="arabic-name">
-                  <img src={"/5.webp"}></img>
+                  <img src={"/assets/name/5.webp"} alt="As-Salam" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -217,7 +217,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">6</td>
                 <td className="arabic-name">
-                  <img src={"/6.webp"}></img>
+                  <img src={"/assets/name/6.webp"} alt="Al-Mumin" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -249,7 +249,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">7</td>
                 <td className="arabic-name">
-                  <img src={"/7.webp"}></img>
+                  <img src={"/assets/name/7.webp"} alt="Al-Muhaymin" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -280,7 +280,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">8</td>
                 <td className="arabic-name">
-                  <img src={"/8.webp"}></img>
+                  <img src={"/assets/name/8.webp"} alt="Al-Aziz" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -312,7 +312,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">9</td>
                 <td className="arabic-name">
-                  <img src={"/9.webp"}></img>
+                  <img src={"/assets/name/9.webp"} alt="Al-Jabbar" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -344,7 +344,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">10</td>
                 <td className="arabic-name">
-                  <img src={"/10.webp"}></img>
+                  <img src={"/assets/name/10.webp"} alt="Al-Mutakabbir" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -376,7 +376,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">11</td>
                 <td className="arabic-name">
-                  <img src={"/11.webp"}></img>
+                  <img src={"/assets/name/11.webp"} alt="AL-Khaliq" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -405,7 +405,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">12</td>
                 <td className="arabic-name">
-                  <img src={"/12.webp"}></img>
+                  <img src={"/assets/name/12.webp"} alt="Al-Bari" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -436,7 +436,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">13</td>
                 <td className="arabic-name">
-                  <img src={"/13.webp"}></img>
+                  <img src={"/assets/name/13.webp"} alt="Al-Musawwir" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -465,7 +465,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">14</td>
                 <td className="arabic-name">
-                  <img src={"/14.webp"}></img>
+                  <img src={"/assets/name/14.webp"} alt="Al-Ghaffar" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -494,7 +494,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">15</td>
                 <td className="arabic-name">
-                  <img src={"/15.webp"}></img>
+                  <img src={"/assets/name/15.webp"} alt="Al-Qahhar" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -525,7 +525,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">16</td>
                 <td className="arabic-name">
-                  <img src={"/16.webp"}></img>
+                  <img src={"/assets/name/16.webp"} alt="Al-Wahhab" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -557,7 +557,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">17</td>
                 <td className="arabic-name">
-                  <img src={"/17.webp"}></img>
+                  <img src={"/assets/name/17.webp"} alt="Ar-Razzaq" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -586,7 +586,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">18</td>
                 <td className="arabic-name">
-                  <img src={"/18.webp"}></img>
+                  <img src={"/assets/name/18.webp"} alt="Al-Fattah" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -618,7 +618,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">19</td>
                 <td className="arabic-name">
-                  <img src={"/19.webp"}></img>
+                  <img src={"/assets/name/19.webp"} alt="Al-Alim" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -650,7 +650,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">20</td>
                 <td className="arabic-name">
-                  <img src={"/20.webp"}></img>
+                  <img src={"/assets/name/20.webp"} alt="Al-Qabid" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -683,7 +683,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">21</td>
                 <td className="arabic-name">
-                  <img src={"/21.webp"}></img>
+                  <img src={"/assets/name/21.webp"} alt="Al-Basit" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -716,7 +716,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">22</td>
                 <td className="arabic-name">
-                  <img src={"/22.webp"}></img>
+                  <img src={"/assets/name/22.webp"} alt="Al-Khafid" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -748,7 +748,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">23</td>
                 <td className="arabic-name">
-                  <img src={"/23.webp"}></img>
+                  <img src={"/assets/name/23.webp"} alt="Ar-Rafi" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -781,7 +781,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">24</td>
                 <td className="arabic-name">
-                  <img src={"/24.webp"}></img>
+                  <img src={"/assets/name/24.webp"} alt="Al-Mu'izz" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -814,7 +814,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">25</td>
                 <td className="arabic-name">
-                  <img src={"/25.webp"}></img>
+                  <img src={"/assets/name/25.webp"} alt="Al-Muzil" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -848,7 +848,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">26</td>
                 <td className="arabic-name">
-                  <img src={"/26.webp"}></img>
+                  <img src={"/assets/name/26.webp"} alt="As-Sami" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -880,7 +880,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">27</td>
                 <td className="arabic-name">
-                  <img src={"/27.webp"}></img>
+                  <img src={"/assets/name/27.webp"} alt="Al-Baseer" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -913,7 +913,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">28</td>
                 <td className="arabic-name">
-                  <img src={"/28.webp"}></img>
+                  <img src={"/assets/name/28.webp"} alt="Al-Hakam" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -945,7 +945,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">29</td>
                 <td className="arabic-name">
-                  <img src={"/29.webp"}></img>
+                  <img src={"/assets/name/29.webp"} alt="Al-Adl" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -974,7 +974,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">30</td>
                 <td className="arabic-name">
-                  <img src={"/30.webp"}></img>
+                  <img src={"/assets/name/30.webp"} alt="Al-Latif" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1006,7 +1006,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">31</td>
                 <td className="arabic-name">
-                  <img src={"/31.webp"}></img>
+                  <img src={"/assets/name/31.webp"} alt="Al-Khabir" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1035,7 +1035,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">32</td>
                 <td className="arabic-name">
-                  <img src={"/32.webp"}></img>
+                  <img src={"/assets/name/32.webp"} alt="Al-Halim" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1067,7 +1067,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">33</td>
                 <td className="arabic-name">
-                  <img src={"/33.webp"}></img>
+                  <img src={"/assets/name/33.webp"} alt="Al-Azeem" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1100,7 +1100,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">34</td>
                 <td className="arabic-name">
-                  <img src={"/34.webp"}></img>
+                  <img src={"/assets/name/34.webp"} alt="Al-Ghafoor" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1132,7 +1132,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">35</td>
                 <td className="arabic-name">
-                  <img src={"/35.webp"}></img>
+                  <img src={"/assets/name/35.webp"} alt="Ash-Shakur" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1164,7 +1164,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">36</td>
                 <td className="arabic-name">
-                  <img src={"/36.webp"}></img>
+                  <img src={"/assets/name/36.webp"} alt="Al-Aliyy" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1196,7 +1196,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">37</td>
                 <td className="arabic-name">
-                  <img src={"/37.webp"}></img>
+                  <img src={"/assets/name/37.webp"} alt="Al-Kabeer" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1228,7 +1228,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">38</td>
                 <td className="arabic-name">
-                  <img src={"/38.webp"}></img>
+                  <img src={"/assets/name/38.webp"} alt="Al-Hafiz" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1260,7 +1260,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">39</td>
                 <td className="arabic-name">
-                  <img src={"/39.webp"}></img>
+                  <img src={"/assets/name/39.webp"} alt="Al-Muqeet" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1292,7 +1292,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">40</td>
                 <td className="arabic-name">
-                  <img src={"/40.webp"}></img>
+                  <img src={"/assets/name/40.webp"} alt="Al-Haseeb" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1321,7 +1321,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">41</td>
                 <td className="arabic-name">
-                  <img src={"/41.webp"}></img>
+                  <img src={"/assets/name/41.webp"} alt="Al-Jaleel" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1353,7 +1353,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">42</td>
                 <td className="arabic-name">
-                  <img src={"/42.webp"}></img>
+                  <img src={"/assets/name/42.webp"} alt="Al-Karim" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1385,7 +1385,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">43</td>
                 <td className="arabic-name">
-                  <img src={"/43.webp"}></img>
+                  <img src={"/assets/name/43.webp"} alt="Ar-Raqib" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1417,7 +1417,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">44</td>
                 <td className="arabic-name">
-                  <img src={"/44.webp"}></img>
+                  <img src={"/assets/name/44.webp"} alt="Al-Mujeeb" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1450,7 +1450,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">45</td>
                 <td className="arabic-name">
-                  <img src={"/45.webp"}></img>
+                  <img src={"/assets/name/45.webp"} alt="Al-Wasi" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1479,7 +1479,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">46</td>
                 <td className="arabic-name">
-                  <img src={"/46.webp"}></img>
+                  <img src={"/assets/name/46.webp"} alt="Al-Hakeem" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1511,7 +1511,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">47</td>
                 <td className="arabic-name">
-                  <img src={"/47.webp"}></img>
+                  <img src={"/assets/name/47.webp"} alt="Al-Wadood" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1540,7 +1540,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">48</td>
                 <td className="arabic-name">
-                  <img src={"/48.webp"}></img>
+                  <img src={"/assets/name/48.webp"} alt="Al-Majeed" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1572,7 +1572,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">49</td>
                 <td className="arabic-name">
-                  <img src={"/49.webp"}></img>
+                  <img src={"/assets/name/49.webp"} alt="Al-Ba'ith" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1601,7 +1601,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">50</td>
                 <td className="arabic-name">
-                  <img src={"/50.webp"}></img>
+                  <img src={"/assets/name/50.webp"} alt="Ash-Shaheed" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1630,7 +1630,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">51</td>
                 <td className="arabic-name">
-                  <img src={"/51.webp"}></img>
+                  <img src={"/assets/name/51.webp"} alt="Al-Haqq" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1659,7 +1659,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">52</td>
                 <td className="arabic-name">
-                  <img src={"/52.webp"}></img>
+                  <img src={"/assets/name/52.webp"} alt="Al-Wakeel" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1691,7 +1691,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">53</td>
                 <td className="arabic-name">
-                  <img src={"/53.webp"}></img>
+                  <img src={"/assets/name/53.webp"} alt="Al-Qawiyy" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1723,7 +1723,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">54</td>
                 <td className="arabic-name">
-                  <img src={"/54.webp"}></img>
+                  <img src={"/assets/name/54.webp"} alt="Al-Matin" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1755,7 +1755,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">55</td>
                 <td className="arabic-name">
-                  <img src={"/55.webp"}></img>
+                  <img src={"/assets/name/55.webp"} alt="Al-Waliy" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1784,7 +1784,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">56</td>
                 <td className="arabic-name">
-                  <img src={"/56.webp"}></img>
+                  <img src={"/assets/name/56.webp"} alt="Al-Hameed" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1815,7 +1815,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">57</td>
                 <td className="arabic-name">
-                  <img src={"/57.webp"}></img>
+                  <img src={"/assets/name/57.webp"} alt="Al-Muhsi" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1847,7 +1847,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">58</td>
                 <td className="arabic-name">
-                  <img src={"/58.webp"}></img>
+                  <img src={"/assets/name/58.webp"} alt="Al-Mubdi" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1879,7 +1879,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">59</td>
                 <td className="arabic-name">
-                  <img src={"/59.webp"}></img>
+                  <img src={"/assets/name/59.webp"} alt="Al-Muid" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1911,7 +1911,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">60</td>
                 <td className="arabic-name">
-                  <img src={"/60.webp"}></img>
+                  <img src={"/assets/name/60.webp"} alt="Al-Muhyi" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1940,7 +1940,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">61</td>
                 <td className="arabic-name">
-                  <img src={"/61.webp"}></img>
+                  <img src={"/assets/name/61.webp"} alt="Al-Mumeet" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -1972,7 +1972,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">62</td>
                 <td className="arabic-name">
-                  <img src={"/62.webp"}></img>
+                  <img src={"/assets/name/62.webp"} alt="Al-Hayy" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2005,7 +2005,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">63</td>
                 <td className="arabic-name">
-                  <img src={"/63.webp"}></img>
+                  <img src={"/assets/name/63.webp"} alt="Al-Qayyum" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2037,7 +2037,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">64</td>
                 <td className="arabic-name">
-                  <img src={"/64.webp"}></img>
+                  <img src={"/assets/name/64.webp"} alt="Al-Wajid" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2069,7 +2069,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">65</td>
                 <td className="arabic-name">
-                  <img src={"/65.webp"}></img>
+                  <img src={"/assets/name/65.webp"} alt="Al-Maajid" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2098,7 +2098,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">66</td>
                 <td className="arabic-name">
-                  <img src={"/66.webp"}></img>
+                  <img src={"/assets/name/66.webp"} alt="Al-Wahid" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2127,7 +2127,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">67</td>
                 <td className="arabic-name">
-                  <img src={"/67.webp"}></img>
+                  <img src={"/assets/name/67.webp"} alt="Al-Ahad" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2156,7 +2156,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">68</td>
                 <td className="arabic-name">
-                  <img src={"/68.webp"}></img>
+                  <img src={"/assets/name/68.webp"} alt="As-Samad" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2172,6 +2172,7 @@ const NamesofAllah = () => {
                     <MdVolumeUp />
                   </button>
                   <audio
+                   
                     ref={(el) => (audioRefs.current[67] = el)}
                     src={"/assets/68. as-samad.mp3"}
                   ></audio>
@@ -2189,7 +2190,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">69</td>
                 <td className="arabic-name">
-                  <img src={"/69.webp"}></img>
+                  <img src={"/assets/name/69.webp"} alt="Al-Qadir" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2218,7 +2219,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">70</td>
                 <td className="arabic-name">
-                  <img src={"/70.webp"}></img>
+                  <img src={"/assets/name/70.webp"} alt="Al-Muqtadir" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2250,7 +2251,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">71</td>
                 <td className="arabic-name">
-                  <img src={"/71.webp"}></img>
+                  <img src={"/assets/name/71.webp"} alt="Al-Muqaddim" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2282,7 +2283,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">72</td>
                 <td className="arabic-name">
-                  <img src={"/72.webp"}></img>
+                  <img src={"/assets/name/72.webp"} alt="Al-Muakhkhir" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2314,7 +2315,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">73</td>
                 <td className="arabic-name">
-                  <img src={"/73.webp"}></img>
+                  <img src={"/assets/name/73.webp"} alt="Al-Awwal" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2345,7 +2346,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">74</td>
                 <td className="arabic-name">
-                  <img src={"/74.webp"}></img>
+                  <img src={"/assets/name/74.webp"} alt="Al-Akhir" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2374,7 +2375,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">75</td>
                 <td className="arabic-name">
-                  <img src={"/75.webp"}></img>
+                  <img src={"/assets/name/75.webp"} alt="Az-Zaahir" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2403,7 +2404,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">76</td>
                 <td className="arabic-name">
-                  <img src={"/76.webp"}></img>
+                  <img src={"/assets/name/76.webp"} alt="Al-Batin" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2435,7 +2436,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">77</td>
                 <td className="arabic-name">
-                  <img src={"/77.webp"}></img>
+                  <img src={"/assets/name/77.webp"} alt="Al-Wali" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2464,7 +2465,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">78</td>
                 <td className="arabic-name">
-                  <img src={"/78.webp"}></img>
+                  <img src={"/assets/name/78.webp"} alt="Al-Mutaali" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2496,7 +2497,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">79</td>
                 <td className="arabic-name">
-                  <img src={"/79.webp"}></img>
+                  <img src={"/assets/name/79.webp"} alt="Al-Barr" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2528,7 +2529,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">80</td>
                 <td className="arabic-name">
-                  <img src={"/80.webp"}></img>
+                  <img src={"/assets/name/80.webp"} alt="At-Tawwab" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2560,7 +2561,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">81</td>
                 <td className="arabic-name">
-                  <img src={"/81.webp"}></img>
+                  <img src={"/assets/name/81.webp"} alt="Al-Muntaqim" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2591,7 +2592,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">82</td>
                 <td className="arabic-name">
-                  <img src={"/82.webp"}></img>
+                  <img src={"/assets/name/82.webp"} alt="Al-Afuw" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2620,7 +2621,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">83</td>
                 <td className="arabic-name">
-                  <img src={"/83.webp"}></img>
+                  <img src={"/assets/name/83.webp"} alt="Ar-Rauf" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2652,7 +2653,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">84</td>
                 <td className="arabic-name">
-                  <img src={"/84.webp"}></img>
+                  <img src={"/assets/name/84.webp"} alt="Malikul-Mulk" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2669,7 +2670,7 @@ const NamesofAllah = () => {
                   </button>
                   <audio
                     ref={(el) => (audioRefs.current[83] = el)}
-                    src={"/assets/84. malikul mulk.mp3"}
+                    src={"/assets/84. malikul mulk.mp4"}
                   ></audio>
                 </td>
                 <td className="transliteration">Malikul-Mulk</td>
@@ -2684,7 +2685,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">85</td>
                 <td className="arabic-name">
-                  <img src={"/85.webp"}></img>
+                  <img src={"/assets/name/85.webp"} alt="Dhul-Jalaali-Wal-Ikram" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2713,7 +2714,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">86</td>
                 <td className="arabic-name">
-                  <img src={"/86.webp"}></img>
+                  <img src={"/assets/name/86.webp"} alt="Al-Muqsit" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2742,7 +2743,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">87</td>
                 <td className="arabic-name">
-                  <img src={"/87.webp"}></img>
+                  <img src={"/assets/name/87.webp"} alt="Al-Jami" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2774,7 +2775,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">88</td>
                 <td className="arabic-name">
-                  <img src={"/88.webp"}></img>
+                  <img src={"/assets/name/88.webp"} alt="Al-Ghaniy" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2803,7 +2804,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">89</td>
                 <td className="arabic-name">
-                  <img src={"/89.webp"}></img>
+                  <img src={"/assets/name/89.webp"} alt="Al-Mughni" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2835,7 +2836,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">90</td>
                 <td className="arabic-name">
-                  <img src={"/90.webp"}></img>
+                  <img src={"/assets/name/90.webp"} alt="Al-Mani" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2864,7 +2865,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">91</td>
                 <td className="arabic-name">
-                  <img src={"/91.webp"}></img>
+                  <img src={"/assets/name/91.webp"} alt="Ad-Darr" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2896,7 +2897,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">92</td>
                 <td className="arabic-name">
-                  <img src={"/92.webp"}></img>
+                  <img src={"/assets/name/92.webp"} alt="An-Naafi" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2928,7 +2929,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">93</td>
                 <td className="arabic-name">
-                  <img src={"/93.webp"}></img>
+                  <img src={"/assets/name/93.webp"} alt="An-Noor" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2957,7 +2958,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">94</td>
                 <td className="arabic-name">
-                  <img src={"/94.webp"}></img>
+                  <img src={"/assets/name/94.webp"} alt="Al-Hadi" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -2986,7 +2987,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">95</td>
                 <td className="arabic-name">
-                  <img src={"/95.webp"}></img>
+                  <img src={"/assets/name/95.webp"} alt="Al-Badi" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -3018,7 +3019,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">96</td>
                 <td className="arabic-name">
-                  <img src={"/96.webp"}></img>
+                  <img src={"/assets/name/96.webp"} alt="Al-Baaqi" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -3047,7 +3048,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">97</td>
                 <td className="arabic-name">
-                  <img src={"/97.webp"}></img>
+                  <img src={"/assets/name/97.webp"} alt="Al-Warith" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -3076,7 +3077,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">98</td>
                 <td className="arabic-name">
-                  <img src={"/98.webp"}></img>
+                  <img src={"/assets/name/98.webp"} alt="Ar-Rasheed" />
                 </td>
                 <td className="audio-name">
                   <button
@@ -3105,7 +3106,7 @@ const NamesofAllah = () => {
               <tr>
                 <td className="n-number">99</td>
                 <td className="arabic-name">
-                  <img src={"/99.webp"} alt=""></img>
+                  <img src={"/assets/name/99.webp"} alt="As-Sabur" />
                 </td>
                 <td className="audio-name">
                   <button

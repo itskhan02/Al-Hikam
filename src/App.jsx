@@ -43,7 +43,6 @@ const App = () => {
           <Route path="/chapter/:chapterName" element={<ChapterPage />} />
           <Route path="/prayer" element={<NamazTime darkMode={darkMode} />} />
           <Route path="/name" element={<NamesofAllah darkMode={darkMode} />} />
-          <Route path="/name" element={<NamesofAllah darkMode={darkMode} />} />
           <Route path="/dua" element={<Dua darkMode={darkMode} />} />
           {/* <Route path="/hadith" element={<Hadith darkMode={darkMode} />} /> */}
           <Route path="/transliteration" element={<Transliteration darkMode={darkMode} />} />
