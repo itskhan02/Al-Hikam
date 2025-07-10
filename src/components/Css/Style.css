@@ -1,0 +1,1333 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+Gunjala+Gondi:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans+Gunjala+Gondi:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+Arabic&family=Noto+Sans+Gunjala+Gondi:wght@400..700&family=Roboto+Slab:wght@100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.22s ease;
+  justify-content: center;
+  
+}
+
+#root {
+max-width: 100%;
+  margin: 0 auto; 
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.ant-layout{
+  height: auto;
+  background-color:#3b444b  ;
+}
+
+/* .ant-btn-icon{
+  font-size: 3.3rem
+} */
+
+.ant-menu-submenu-title{
+  font-size: 1.7rem;
+}
+
+.ant-menu-title-content{
+  font-size: 1.7rem; 
+  background-color: none !important;
+}
+
+.ant-menu-title-content i{
+  font-size: 1.7rem;
+  color: transparent;
+}
+
+.ant-menu-root{
+  background-color: transparent;
+  height: 100vh;
+}
+
+.ant-menu-submenu{
+  font-size: 1.5rem; /* Child size */
+}
+
+.ant-menu .ant-menu-submenu-arrow {
+  position: absolute;
+  top: 50%;
+  inset-inline-end: 16px;
+  width: 10px;
+  transform: translateY(-50%);
+  transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.3s;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline{
+  background-color: transparent;
+}
+
+/* .ant-menu-inline{
+  background-color: #ffffff;
+} */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.titlename {
+  width: 70%;
+}
+
+.titlename a {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.9rem;
+  font-weight: 800;
+  color: #111010;
+  text-decoration: none;
+  margin: 0.5em;
+}
+
+.anticon-search svg{
+  font-size: 2.3rem;
+  font-weight: 300;
+  color: #000000;
+}
+
+.ant-input-suffix svg{
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.ant-input-group-wrapper{
+  margin-left: 10%;
+  color: #ffffff;
+}
+
+.ant-switch.ant-switch-checked .ant-switch-inner .ant-switch-inner-checked {
+  margin-inline-start: -8px;
+  margin-inline-end: 0px;
+  margin-top: 1px;
+}
+
+
+.ant-switch .ant-switch-inner .ant-switch-inner-unchecked {
+  margin-top: -21px;
+  margin-inline-start: -3px;
+  margin-inline-end: 0px;
+}
+
+.credit{
+  font-size: 1.9rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.credit hr{
+  width: 70%;
+  border-top: 1.6px solid;
+}
+
+.credit h1 span{
+  color: red;
+  font-size: 2.3rem;
+}
+/* ---------------------main page----------------------- */
+#front{
+  background-image: url("src/components/images/BG.jpg");
+  height: 60vh;
+  width: 100%;
+  background-position: center center;
+  padding: 0 18rem;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  border-radius: 0.5rem;
+}
+
+#front .hero{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#front h1 {
+  color: #100f0f;
+  padding: 1rem;
+  font-size: 4.5rem;
+  text-decoration: none;
+  font-family: 'Nunito';
+  font-weight: 600; 
+
+}
+
+
+#front p {
+  padding: 3px;
+  color: #1a1a1a;
+  font-size: 1.8rem;
+  font-family: 'Nunito';
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  text-transform: none;
+}
+
+#front a {
+  color: red;
+  text-decoration: none;
+}
+
+/* --------------------------------------Namaztime-------------------------- */
+
+
+.namaz-container {
+  max-width: 500px;
+  padding: 1.3rem;
+  /* font-size: 2rem; */
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.namaztime {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16rem;
+}
+
+
+.namaz-title {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.namaz-title h1 {
+  font-size: 2.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.namaz-location {
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.namaz-location p{
+  display: flex;
+  align-items: center;
+}
+
+.namaz-location p svg{
+  font-size: 2.2rem;
+}
+
+.namaz-current-time {
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+}
+
+.namaz-prayer-times {
+  display: flex;
+  font-size: 1.8rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.9rem;
+}
+
+.current-prayer{
+  font-size: 2.5rem;
+  font-weight: 600;
+  display: flex;
+  margin-left: 2rem;
+  justify-content: flex-start;
+}
+
+.namaz-time{
+  float: left;
+  width: 40%;
+  margin: 2rem;
+
+}
+/* ------------------------Names of Allah--------------------- */
+
+
+#above-fold{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-direction: column;
+}
+
+.center-align-vid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: auto;
+    min-height: auto;
+}
+
+video{
+  width: 100%;
+  height: auto;
+}
+
+#below-fold{
+  width: 100%;
+  height: auto;
+  font-family: "Nunito", sans-serif;
+}
+
+#below-fold h1{
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Merriweather';
+  background: linear-gradient(180deg, #ffea0f, #aa7200);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.name-table{
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table-head{
+  background-color: #0882e2;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.table-head .h-number{
+  width: 100%;
+  float: left;
+}
+
+table td, table th, table tr {
+  text-align: center;
+  max-width: 100%;
+  padding: .6rem;
+  
+}
+
+/* table th{
+  border: #555454 2px solid;
+} */
+
+table tr{
+  border: #555454 2px solid;
+}
+
+tbody .n-number{
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-color: #87898b;
+  border-right: #555454 2px solid;
+}
+
+td.arabic-name {
+  width: 25%;
+  height: 25vh;
+  padding: 1rem;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #F5FFFA;
+  color: #000000;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F0F8FF;
+  color: #000000;
+}
+
+tbody td img{
+  width: auto;
+  height: 25vh;
+}
+
+td.audio-name{
+  width: 14%;
+  height: 25vh;
+  padding: 7rem;
+}
+
+td.audio-name audio{
+  width: 100%;
+}
+
+td.transliteration {
+  width: 15%;
+  font-size: 1.9rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+td.n-meaning {
+  font-size: 3rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  width: 100%;
+  height: 25vh;
+  padding-right: 8%;
+  padding-left: 3rem;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; */
+}
+
+td.n-meaning p {
+  font-size: 1.6rem;
+  font-family: 'Nunito', sans-serif;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 35%;
+  min-width: 220px;
+  background-image: url("src/components/images/ab1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  margin: 0 auto;
+}
+
+.player button:hover {
+  cursor: pointer;
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* 
+.progress-bar {
+  height: 5px;
+  background-color: #00e9fe;
+  border-radius: 2px;
+  overflow: hidden;
+  animation: progress-animation 10s linear infinite;
+} */
+
+.audio-name button:hover {
+  cursor: pointer;
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.surah-list {
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.surah-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.surah-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.player-container {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.reciter-select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.play-button {
+  background: #2E8B57;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.verses-container {
+  margin-top: 1.3rem;
+  
+}
+
+.verse {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.verse:hover {
+  background-color: #f0f0f0;
+}
+
+.verse.active {
+  background-color: #e8f5e9;
+  border-left: 3px solid #2E8B57;
+}
+
+.arabic {
+  font-size: 1.8rem;
+  text-align: right;
+  line-height: 2;
+  font-family: 'Scheherazade New', serif;
+}
+
+.translation {
+  color: #444;
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.scroll {
+  height: 100%;
+  overflow: auto;
+}
+
+/* -----------------Media Queries ------------------*/
+
+@media (max-width: 768px) {
+  .home-body {
+    margin: 1rem;
+  }
+
+  .scroll {
+    height: auto;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-body {
+    margin: 0.5rem;
+  }
+
+  .scroll {
+    height: auto;
+    overflow: visible;
+  }
+}
+
+.home-body{
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem 2rem 1rem;
+  width: auto;
+}
+
+.home-body h1{
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: 'Merriweather';
+  background: linear-gradient(180deg, #ffea0f, #aa7200);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+.list-group{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+
+.chapter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: #e9e7e7;
+  width: 28%;
+  height: 18vh;
+  font-weight: 600;
+  cursor: pointer;
+  }
+
+.chapter:hover{
+  background-color: #7ffff6;
+  transform: scale(1.04);
+  transition: all 0.2s;
+}
+
+.chapter-details {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  padding: 1.5rem;
+  justify-content: space-between; 
+}
+
+.chap {
+  display: flex;
+}
+
+.chapter-id{  
+  background-color: #09707e83;
+  color: black;
+  font-weight: bold;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.chapter-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #000000;
+  }
+
+.chapter-translation {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: system-ui;
+}
+
+.arabic-id {
+  font-size: 2.4rem;
+  color: #0f7171;
+  margin-right: 1rem;
+  }
+
+.reciter-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+  width: auto;
+}
+
+.chapter-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: none;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  }
+
+.chapter-title h1{
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Merriweather';
+}
+
+.chapter-title p{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Nunito';
+  font-weight: 500;
+  }
+
+.reciter-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.reciter-list h1{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.form-select{
+  width: 100%;
+  max-width: 300px;
+    font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid #ddd;
+}
+
+.btn{
+  padding: 1rem 2rem;
+  font-size: 3.5rem;
+  border: none;
+  width: 5rem;
+  height: 5rem;
+  margin-left: 0;
+  margin-top: .5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+.btn:hover{
+  background-color: #e3e1e191;
+  transform: translateX(-0.6rem);
+  transition: all 0.2s;
+}
+
+.reciter-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    margin-bottom: 1rem;
+  }
+
+.ReactPlayer {
+  display: flex;
+  width: 95%;
+}
+
+li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark.css-dev-only-do-not-override-1d4w9r2 {
+  height: 50px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+.chapter-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.translations-container{
+  margin-top: 3.3rem;
+}
+
+.move-buttons{
+  background-color: rgb(6, 81, 222);
+  display: flex;
+  
+  width: 10%;
+}
+
+
+.quran-player {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  /* background: #f5f5f5; */
+  background: linear-gradient(84deg, rgb(34, 181, 254) 0.00%, rgb(255, 186, 214) 90.64%);
+  border-radius: 1.2rem;
+  height: 50vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-title {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.surah-selector {
+  height: 4.5rem;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: .7rem;
+  font-size: 1.5rem;
+}
+
+.surah-select{
+  display: flex;
+  width: 80%;
+}
+
+.player-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.control-btn {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.play-btn {
+  background: #bdc3c7;
+  color: white;
+  font-size: 2rem;
+  min-width: 100px;
+  display: flex;
+}
+
+.play-btn.playing {
+  background: #bdc3c7;
+  display: flex;
+}
+
+.prev-btn, .next-btn {
+  background: #bdc3c7;
+  color: rgb(11, 11, 11);
+  font-size: 2rem;
+}
+
+
+.control-btn:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+  opacity: 0.7;
+  display: flex;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  margin-bottom: 2.3rem;
+  width: 90%;
+}
+
+.progress-bar {
+  flex-grow: 1;
+  height: 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.time-display {
+  font-size: 1.4rem;
+  color: #050707;
+  min-width: 40px;
+}
+
+.surah-info {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #e7f5f2;
+  border-radius: 8px;
+  width: 70%;
+}
+
+.surah-info h3 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  color: #0a8068;
+  font-weight: 500;
+}
+
+.no-surah-selected {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #fef9e7;
+  border-radius: 8px;
+  color: #f39c12;
+}
+
+
+.dua-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arabic {
+  font-family: 'Traditional Arabic', 'Arial', sans-serif;
+  line-height: 1.8;
+}
+
+.dua h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+div#rc-tabs-0-tab-1 {
+  font-size: 1.7rem;
+}
+
+div#rc-tabs-0-tab-2 {
+  font-size: 1.7rem;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
+  margin-left: 0;
+}
+
+.ant-tabs-tab {
+  margin-left: 2rem !important
+}
+
+.ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  height: 0.3rem !important;
+}
+
+#prayer-dua{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  padding: 1rem;
+  gap: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.daily-dua {
+  width: 100%;
+  max-width: 700px;
+  padding: 2rem;
+  padding-top: 5rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #dd7997 0%, #f6ebb8 69%, #e1d3ad 70%, #a2758d 100%);
+  background-blend-mode: normal, normal, screen, overlay, normal;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.daily-dua h1, .daily-dua h2 {
+  text-align: center;
+  margin-bottom: 1.2rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.daily-dua p {
+  font-size: 1.7rem;
+  margin-bottom: 0.7rem;
+  text-align: justify;
+}
+
+/* --------------------Media Queries------------- */
+
+@media (max-width: 1200px) {
+  #front {
+    padding: 0 10rem;
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+  }
+  .namaz-time, .daily-dua {
+    max-width: 95vw;
+  }
+}
+
+@media (max-width: 900px) {
+  #prayer-dua {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 1.5rem !important;
+  }
+  .namaz-time, .daily-dua {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    min-width: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #front {
+    padding: 0 5rem;
+    height: auto;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+  .namaz-time, .daily-dua {
+    padding: 1rem !important;
+    font-size: 1.2rem !important;
+    max-width: 100vw;
+  }
+  .daily-dua h1, .daily-dua h2 {
+    font-size: 2rem !important;
+  }
+  .namaz-container {
+    max-width: 100vw;
+    padding: 1rem;
+  }
+  .chapter {
+    width: 90%;
+    height: auto;
+  }
+  .player {
+    width: 90%;
+    min-width: 220px;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #front {
+    padding: 0 1rem;
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+  }
+  .namaz-time, .daily-dua {
+    padding: 0.7rem !important;
+    font-size: 1rem !important;
+    max-width: 100vw;
+  }
+  .daily-dua h1, .daily-dua h2 {
+    font-size: 1.5rem !important;
+  }
+  .namaz-container {
+    max-width: 100vw;
+    padding: 0.7rem;
+  }
+  .chapter {
+    width: 100%;
+    height: auto;
+  }
+  .player {
+    width: 100%;
+    min-width: 120px;
+    padding: 0.7rem;
+  }
+}
+
+/* Responsive table for Names of Allah */
+.name-table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .name-table th,
+  .name-table td {
+    font-size: 1.1rem;
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .name-table th,
+  .name-table td {
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+}
+
+/* Responsive player */
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 35%;
+  min-width: 220px;
+  background-image: url("src/components/images/ab1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .player {
+    width: 90%;
+    min-width: 180px;
+    padding: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .player {
+    width: 100%;
+    min-width: 120px;
+    padding: 0.7rem;
+  }
+}
+
+/* Responsive dua card */
+.dua-card {
+  background: linear-gradient(49deg, rgb(251, 251, 255) 0.00%, rgb(215, 223, 252) 100.00%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  word-break: break-word;
+}
+
+@media (max-width: 576px) {
+  .dua-card {
+    font-size: 1.1rem;
+    padding: 8px;
+  }
+}
+
+/* Responsive chapter cards */
+.chapter {
+  width: 28%;
+  min-width: 220px;
+  max-width: 400px;
+  margin: 1rem auto;
+  border-radius: 10px;
+  background-color: #e9e7e7;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: background 0.2s, transform 0.2s;
+}
+
+@media (max-width: 900px) {
+  .chapter {
+    width: 90%;
+    min-width: 160px;
+    max-width: 100vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .chapter {
+    width: 90%;
+    min-width: 120px;
+    max-width: 100vw;
+    font-size: 1.5rem;
+  }
+}
+
+/* Responsive translation container */
+.translation-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
+
+}
+
+@media (max-width: 768px) {
+  .translation-container {
+    padding: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .translation-container {
+    padding: 0.5rem;
+  }
+  
+}
+
+
+.name-table th,
+.name-table td {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  #below-fold h1 {
+    font-size: 2.5rem;
+  }
+
+  .name-table th,
+  .name-table td {
+    font-size: 1.4rem;
+  }
+
+  td.audio-name {
+    padding: 2rem;
+  }
+
+  td.n-meaning {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+
+  td.n-meaning p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #below-fold h1 {
+    font-size: 2rem;
+  }
+
+  .name-table th,
+  .name-table td {
+    font-size: 1.2rem;
+  }
+
+  td.audio-name {
+    padding: 1rem;
+  }
+
+  td.n-meaning {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+  }
+
+  td.n-meaning p {
+    font-size: 1.2rem;
+  }
+}
+
