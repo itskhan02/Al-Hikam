@@ -11,7 +11,10 @@ import Main from './Main';
 import { useNavigate } from 'react-router-dom';
 import { FaBookReader } from 'react-icons/fa';
 import { PiBooksBold } from 'react-icons/pi';
+import nameIcon from '/Allah.png'
 import duaIcon from '/dua.png';
+import salahIcon from '/salah1.png'; 
+import bookIcon from '/audiobook.png';
 
 const { Header, Sider, Content } = Layout;
 
@@ -22,6 +25,7 @@ const Home = () => {
   
     return localStorage.getItem('darkMode') === 'true';
   }); 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
@@ -34,6 +38,12 @@ const Home = () => {
     document.body.style.backgroundColor = darkMode ? '#1c1e26' : '#fff';
     document.body.style.color = darkMode ? '#fff' : '#1c1e26';
   }, [darkMode]);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // const handleSearch = (value) => {
   //   const searchQuery = value.toLowerCase();
@@ -59,14 +69,15 @@ const Home = () => {
       <Sider
         trigger={null}
         collapsible
-        width={230}
+        width={windowWidth <= 768 ? 100 : 230}
         collapsed={collapsed}
-        collapsedWidth={0}
+        collapsedWidth={ 0}
         style={{
           fontWeight: 'bold',
           background: darkMode ? '#1c1e26' : '#fff',
           minHeight: '100vh',
           position: 'fixed',
+          backgroundColor: 'transparent',
           zIndex: 1000,
           left: 0,
           top: 0,
@@ -91,38 +102,38 @@ const Home = () => {
           items={[
             {
               key: "",
-              icon: <IoHome style={{ fontSize: '2rem', color: darkMode ? '#fff' : 'black' }} />, 
-              label: 'Home',
+              icon: <IoHome style={{ fontSize: windowWidth <= 768 ? '2.2rem' : '2rem', color: darkMode ? '#fff' : 'black' }} />, 
+              label: windowWidth <= 768 ? '' : 'Home',
             },
             {
               key: "quran",
-              icon:  <FaBookReader  style={{ fontSize: '2rem', color: darkMode ? '#fff' : 'black' }}/>, 
-              label: 'Quran',
+              icon:  <FaBookReader  style={{ fontSize: windowWidth <= 768 ? '2.2rem' : '2rem', color: darkMode ? '#fff' : 'black' }}/>, 
+              label: windowWidth <= 768 ? '' : 'Quran',
             },
             {
               key: "quranaudio",
-              icon:  <FaBookReader  style={{ fontSize: '2rem', color: darkMode ? '#fff' : 'black' }}/>, 
-              label: 'Quran Translation',
+              icon:  <img src={bookIcon}  style={{ fontSize: windowWidth <= 768 ? '1.2rem' : '2rem', color: darkMode ? '#fff' : 'black' }}/>, 
+              label: windowWidth <= 768 ? '' : 'Quran Translation',
             },
             // {
             //   key: 'hadith',
-            //   icon: <PiBooksBold  style={{ fontSize: '2rem', color: darkMode ? '#fff' : 'black' }} />,
-            //   label: 'Hadith',
+            //   icon: <PiBooksBold  style={{ fontSize: windowWidth <= 768 ? '2.2rem' : '2rem', color: darkMode ? '#fff' : 'black' }} />,
+            //   label: windowWidth <= 768 ? '' : 'Hadith',
             // },
             {
               key: 'prayer',
-              // icon:
-              label: 'Prayer Times',
+              icon: <img src={salahIcon} style={{ width: windowWidth <= 768 ? '3.5rem' : '3.5rem',  height: windowWidth <= 768 ? '3.5rem' : '3.5rem', color: darkMode ? '#fff' : 'black' }} />,
+              label: windowWidth <= 768 ? '' : 'Prayer Times',
             },
             {
               key: 'name',
-              // icon:
-              label: '99 Names of Allah',
+              icon: <img src={nameIcon} style={{ width: windowWidth <= 768 ? '3.5rem' : '4rem', height: windowWidth <= 768 ? '3.5rem' : '4rem', color: darkMode ? '#fff' : 'black' }} />,
+              label: windowWidth <= 768 ? '' : '99 Names of Allah',
             },
             {
               key: 'dua',
-              icon: <img src={duaIcon} style={{ width: '2rem', height: '2rem', color: darkMode ? '#fff' : 'black' }} />, 
-              label: 'Duas',
+              icon: <img src={duaIcon} style={{ width: windowWidth <= 768 ? '2.5rem' : '2.5rem', height: windowWidth <= 768 ? '2.5rem' : '2.5rem', color: darkMode ? '#fff' : 'black' }} />, 
+              label: windowWidth <= 768 ? '' : 'Duas',
             },
             // {
             //   key: 'qibla',
@@ -150,7 +161,7 @@ const Home = () => {
       </Sider>
       <Layout
         style={{
-          marginLeft: collapsed ? 0 : 230,
+          marginLeft: collapsed ? 0 : (windowWidth <= 768 ? 100 : 230),
           transition: 'margin-left 0.2s',
           minHeight: '100vh',
         }}
@@ -215,13 +226,15 @@ const Home = () => {
                 value={searchValue}
                 style={{ maxWidth: 350 }}
               /> */}
-              <Switch
-                checked={darkMode}
-                onChange={toggleDarkMode}
-                checkedChildren={<MdDarkMode style={{ fontSize: '2rem' }} />}
-                unCheckedChildren={<MdLightMode style={{ fontSize: '2rem' }} />}
-                style={{ maxWidth: 32, marginLeft: '7%', marginRight: '5%' }}
-              />
+              {/* {!(windowWidth <= 768 && !collapsed) && (
+                <Switch
+                  checked={darkMode}
+                  onChange={toggleDarkMode}
+                  checkedChildren={<MdDarkMode style={{ fontSize: '2rem' }} />}
+                  unCheckedChildren={<MdLightMode style={{ fontSize: '2rem' }} />}
+                  style={{ maxWidth: 32, marginLeft: '7%', marginRight: '5%' }}
+                />
+              )} */}
             </div>
           </div>
         </Header>

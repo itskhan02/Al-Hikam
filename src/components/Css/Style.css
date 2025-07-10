@@ -167,24 +167,100 @@ body {
   margin-inline-end: 0px;
 }
 
-.credit{
+.credit {
   font-size: 1.9rem;
   font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  gap: 0.7rem;
+  word-break: break-word;
 }
 
-.credit hr{
+.credit h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin: 0;
+  word-break: break-word;
+}
+
+.credit h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  word-break: break-word;
+}
+
+.credit hr {
   width: 70%;
   border-top: 1.6px solid;
+  margin: 0.5rem 0;
 }
 
-.credit h1 span{
+.credit h1 span {
   color: red;
   font-size: 2.3rem;
 }
+
+ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.css-dev-only-do-not-override-1v5z42l {
+      border-inline-end: transparent;
+}
+
+/* Responsive footer styles */
+@media (max-width: 576px) {
+  .credit {
+    font-size: 1.5rem;
+    padding: 0 0.7rem;
+    width: 70%;
+  }
+  .credit h1 {
+    font-size: 1.7rem;
+  }
+  .credit h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .credit {
+    font-size: 1.1rem;
+    padding: 0 0.3rem;
+    gap: 0.5rem;
+  }
+  .credit h1 {
+    font-size: 1.3rem;
+  }
+  .credit h2 {
+    font-size: 1rem;
+  }
+  .credit hr {
+    width: 90%;
+    margin: 0.3rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .credit {
+    font-size: 0.95rem;
+    padding: 0 0.1rem;
+    gap: 0.3rem;
+  }
+  .credit h1 {
+    font-size: 1.05rem;
+  }
+  .credit h2 {
+    font-size: 0.85rem;
+  }
+  .credit hr {
+    width: 100%;
+    margin: 0.2rem 0;
+  }
+}
+
 /* ---------------------main page----------------------- */
 #front{
   background-image: url(/BG.jpg);
@@ -234,6 +310,67 @@ body {
 #front a {
   color: red;
   text-decoration: none;
+}
+
+/* Responsive styles for #front and .hero */
+@media (max-width: 1200px) {
+  #front {
+    padding: 0 8rem;
+    height: 45vh;
+  }
+  #front .hero {
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  #front {
+    padding: 0 2rem;
+    height: 40vh;
+  }
+  #front .hero {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  #front {
+    padding: 0 1rem;
+    height: auto;
+    min-height: 30vh;
+    border-radius: 0.3rem;
+  }
+  #front .hero {
+    width: 100%;
+    align-items: flex-start;
+  }
+  #front h1 {
+    font-size: 2.7rem;
+    padding: 0.7rem;
+  }
+  #front p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #front {
+    padding: 0 0.5rem;
+    height: auto;
+    min-height: 20vh;
+    border-radius: 0.2rem;
+  }
+  #front .hero {
+    width: 100%;
+    align-items: flex-start;
+  }
+  #front h1 {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  #front p {
+    font-size: 1.1rem;
+  }
 }
 
 /* --------------------------------------Namaztime-------------------------- */

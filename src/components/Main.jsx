@@ -2,12 +2,23 @@ import React from 'react';
 import Prayertime from './Prayertime';
 import { getDailyDua } from '../components/Duas';
 
-const Main = ({ siderCollapsed }) => {
+const Main = ({ siderCollapsed, windowWidth }) => {
   const dailyDua = getDailyDua();
 
   // Responsive width and margin
-  const contentMaxWidth = siderCollapsed ? '700px' : '600px';
-  const contentMargin = siderCollapsed ? '2rem' : 'auto';
+  let contentMaxWidth = '700px';
+  let contentMargin = '2rem';
+  let flexDirection = 'row';
+  let duaPadding = '2rem';
+  let duaPaddingTop = '5rem';
+
+  if (windowWidth <= 900) {
+    contentMaxWidth = '100vw';
+    contentMargin = '0';
+    flexDirection = 'column';
+    duaPadding = '1rem';
+    duaPaddingTop = '2rem';
+  }
 
   return (
     <>
@@ -21,12 +32,14 @@ const Main = ({ siderCollapsed }) => {
         id="prayer-dua"
         style={{
           display: 'flex',
-          flexDirection: 'row',
-          flexWrap: 'wrap', // changed from 'nonwrap' to 'wrap'
+          flexDirection,
+          flexWrap: 'wrap',
           alignItems: 'stretch',
           justifyContent: 'space-evenly',
           padding: '1rem',
           gap: '2rem',
+          width: '100%',
+          boxSizing: 'border-box',
         }}
       >
         <div
@@ -38,7 +51,7 @@ const Main = ({ siderCollapsed }) => {
             marginLeft: contentMargin,
             marginRight: '2rem',
             transition: 'max-width 0.3s, margin 0.3s',
-            flex: '1 1 350px', // allow to shrink/grow
+            flex: '1 1 350px',
             minWidth: '280px',
           }}
         >
@@ -50,14 +63,14 @@ const Main = ({ siderCollapsed }) => {
             width: '100%',
             maxWidth: contentMaxWidth,
             textAlign: 'justify',
-            padding: '2rem',
-            paddingTop: '5rem',
+            padding: duaPadding,
+            paddingTop: duaPaddingTop,
             boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)',
             borderRadius: '8px',
             marginLeft: contentMargin,
             marginRight: contentMargin,
             transition: 'max-width 0.3s, margin 0.3s',
-            flex: '1 1 350px', // allow to shrink/grow
+            flex: '1 1 350px',
             minWidth: '280px',
           }}
         >
@@ -84,32 +97,6 @@ const Main = ({ siderCollapsed }) => {
           </p>
         </div>
       </section>
-      <style>
-        {`
-          @media (max-width: 900px) {
-            #prayer-dua {
-              flex-direction: column !important;
-              align-items: stretch !important;
-              gap: 1.5rem !important;
-            }
-            .namaz-time, .daily-dua {
-              max-width: 100% !important;
-              margin-left: 0 !important;
-              margin-right: 0 !important;
-              min-width: 0 !important;
-            }
-          }
-          @media (max-width: 600px) {
-            .namaz-time, .daily-dua {
-              padding: 1rem !important;
-              font-size: 1.2rem !important;
-            }
-            .daily-dua h1, .daily-dua h2 {
-              font-size: 2rem !important;
-            }
-          }
-        `}
-      </style>
     </>
   );
 };
