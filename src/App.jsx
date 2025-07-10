@@ -33,7 +33,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <BrowserRouter>
       <div className={`app-container ${darkMode ? 'dark-mode' : 'light-mode'}`} style={{ backgroundColor:'#F8F8FF' }}>
         <Routes>
           <Route path="/" element={<Home darkMode={darkMode} toggleDarkMode={toggleDarkMode} />} />
@@ -43,6 +43,7 @@ const App = () => {
           <Route path="/chapter/:chapterName" element={<ChapterPage />} />
           <Route path="/prayer" element={<NamazTime darkMode={darkMode} />} />
           <Route path="/name" element={<NamesofAllah darkMode={darkMode} />} />
+          <Route path="/name" element={<NamesofAllah darkMode={darkMode} />} />
           <Route path="/dua" element={<Dua darkMode={darkMode} />} />
           {/* <Route path="/hadith" element={<Hadith darkMode={darkMode} />} /> */}
           <Route path="/transliteration" element={<Transliteration darkMode={darkMode} />} />
@@ -51,7 +52,7 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 };
 
