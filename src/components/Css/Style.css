@@ -1119,6 +1119,10 @@ ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark.cs
   color: #f39c12;
 }
 
+body td img {
+    width: 100%;
+    height: 20vh;
+}
 
 .dua-card {
   background-color: #f8f9fa;
@@ -1353,11 +1357,16 @@ div#rc-tabs-0-tab-2 {
   margin-bottom: 15px;
   font-size: 1.5rem;
   word-break: break-word;
+  
 }
 
 @media (max-width: 576px) {
+  .dua-card h3{
+    font-size: 1rem;
+  }
+
   .dua-card {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     padding: 8px;
   }
 }
@@ -1414,7 +1423,6 @@ div#rc-tabs-0-tab-2 {
   
 }
 
-
 .name-table th,
 .name-table td {
   font-size: 1.6rem;
@@ -1466,5 +1474,40 @@ div#rc-tabs-0-tab-2 {
   td.n-meaning p {
     font-size: 1.2rem;
   }
+}
+
+.arabic-name img {
+  width: 150%;
+  height: auto;
+  max-height: 40vh;
+  object-fit: contain;
+  display: block;
+}
+
+/* Responsive image for Names of Allah table */
+@media (max-width: 1200px) {
+  .arabic-name img {
+    max-height: 32vh;
+  }
+}
+@media (max-width: 900px) {
+  .arabic-name img {
+    max-height: 28vh;
+  }
+}
+@media (max-width: 768px) {
+  .arabic-name img {
+    max-height: 22vh;
+  }
+}
+@media (max-width: 576px) {
+  .arabic-name img {
+    max-height: 16vh;
+  }
+
+  img {
+    max-width: 160%;
+    
+}
 }
 

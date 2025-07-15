@@ -65,6 +65,7 @@ const NamesofAllah = () => {
             <tbody>
               <tr>
                 <td className="n-number">1</td>
+                
                 <td className="arabic-name">
                   <img src={"/assets/name/1.webp"} alt="Ar-Rahman" />
                 </td>

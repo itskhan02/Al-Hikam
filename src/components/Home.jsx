@@ -112,7 +112,7 @@ const Home = () => {
             },
             {
               key: "quranaudio",
-              icon:  <FaBookReader  style={{ fontSize: windowWidth <= 768 ? '2.2rem' : '2rem', color: darkMode ? '#fff' : 'black' }}/>, 
+              icon:  <img src={bookIcon}  style={{ fontSize: windowWidth <= 768 ? '2rem' : '2rem', width: windowWidth <= 768 ? '60%' : '18%', color: darkMode ? '#fff' : 'black' }}/>, 
               label: windowWidth <= 768 ? '' : 'Quran Translation',
             },
             // {

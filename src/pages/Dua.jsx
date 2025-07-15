@@ -125,15 +125,15 @@ const Dua = () => {
                 </div>
 
                 {filteredDuas.length > 0 ? (
-                  <div>
+                  <div style={{ marginTop: '20px', width: '92%', display: 'flex', alignContent: 'center', flexDirection: 'column', marginLeft: 'auto', marginRight: 'auto', }}>
                     {filteredDuas.map(dua => (
                       <div className='dua-card'
                         key={dua.id}
                         style={{
                           border: '1px solid #ddd',
-                          borderRadius: '8px',
-                          padding: '15px',
-                          marginBottom: '15px',
+                          borderRadius: '.8rem',
+                          padding: '1rem',
+                          marginBottom: '1rem',
                           backgroundColor: '#f9f9f9',
                         }}
                       >
@@ -163,7 +163,9 @@ const Dua = () => {
                             <p><strong>Benefits:</strong> {dua.benefits}</p>
                           </div>
                         )}
-                        <Badge color="green"  style={{ padding: '10px', borderRadius: '5px' }}>{dua.reference}</Badge>
+                        <Badge color="green" style={{ padding: '1.5rem', fontSize: '1.6rem', borderRadius: '5px' }}>
+                          <strong>{dua.reference}</strong>
+                        </Badge>
                       </div>
                     ))}
                   </div>
