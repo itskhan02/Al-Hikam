@@ -17,11 +17,12 @@
   transition: all 0.22s ease;
   justify-content: center;
   
+  
 }
 
 #root {
 max-width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 html {
@@ -193,6 +194,7 @@ body {
   font-weight: 500;
   margin: 0;
   word-break: break-word;
+  margin-bottom: 3rem;
 }
 
 .credit hr {
@@ -216,12 +218,14 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.css-dev-only-do-not-ove
     font-size: 1.5rem;
     padding: 0 0.7rem;
     width: 70%;
+    height: 15vh;
   }
   .credit h1 {
     font-size: 1.7rem;
   }
   .credit h2 {
     font-size: 1.2rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -394,7 +398,7 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.css-dev-only-do-not-ove
 .namaztime {
   display: flex;
   justify-content: center;
-  margin-bottom: 16rem;
+  margin-bottom: 12rem;
 }
 
 

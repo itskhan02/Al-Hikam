@@ -7,7 +7,7 @@ const NamazTime = () => {
 
 const navigate = useNavigate();  
   return (
-    <div style={{ padding: '1rem', fontSize: '1.6rem' }}>
+    <div style={{ padding: '1rem', fontSize: '1.6rem', height: '100vh' }}>
       <div className='col-12'>
         <button className='btn btn-secondary mb-3' onClick={()=>navigate(-1)}>
           <IoChevronBack/>
